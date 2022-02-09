@@ -7,11 +7,46 @@
 }
 
 .container{
-    height: 500px;
-    width: 500px;
+    width:100vw;
+    height:100vh;
+}
 
-    font-size: 200px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: white;
+.textbox{
+    position: absolute;
+    top:30%;
+    left:2%;
+}
 
+.searchbox
+{
+outline:none;
+border:none;
+background-color: transparent;
+width: 4000px;
+height: 30%;
+color: white;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+font-size: 80px;
+font-weight:700;
+font-family: Arial;
+margin:0px;
+float:left;
+}
+
+::placeholder {
+    color: black;
+    font-size: 80px;
+}
+
+
+.guide {
+    font-family: Arial;
+margin:0px;
+position: absolute;
+top:3px;
+left:105px;
+color:white;
+font-size: smaller;
+font-weight:lighter;
 }
